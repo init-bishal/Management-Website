@@ -1,0 +1,122 @@
+body{
+  background:white;
+}
+.main-signup{
+   display: flex;
+   justify-content: center;
+   align-items: center ;
+ 
+}
+.signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  
+
+}
+.card-left{
+    
+   width: 450px;
+   height:800px  ;
+   
+
+}
+.card-right{
+
+  border: none;
+  width: 450px;
+  height: 800px;
+
+}
+#left-side-txt-1{
+  line-height: 1px;
+}
+.left-side-txt{
+  text-align: center ;
+    margin-top: 100px;
+
+}
+.sign-image{
+  margin-top: 40px;
+   
+}
+.sign-image img{
+  margin-top:50px ;
+  border-radius: 50%;
+  box-shadow:5px 10px 18px #888888 ;
+}
+.logo-img img{
+  margin-top:10px;
+  margin-left:10px;
+  box-shadow: 2px 2px black;
+  border-radius: 50%  ;
+}
+.signup-btn-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.signup-btn-1{
+  border-top-left-radius:15px ;
+  border-bottom-left-radius: 15px;
+  padding-top:5px ;
+  padding-bottom:5px ;
+  padding-left:5px ;
+  background-color: #071d27;
+  color: white;
+  font-weight:bold;
+}
+.signup-btn-1:hover{
+  background-color: #195976;
+}
+.signup-btn-2{
+  border-top-right-radius:15px ;
+  border-bottom-right-radius: 15px;
+  padding-top:5px ;
+  padding-bottom:6px ;
+  padding-right:6px ;
+  font-weight:bold  ;
+  color: white;
+  background-color: #14a2e3;
+}
+.signup-btn-2:hover{
+  background-color: #4cbcf0;
+}
+.signup-txt{
+  font-size: 28px ;
+  cursor: pointer;
+}
+.active{
+  border-bottom: solid 3px #4cbcf0;
+}
+.checkit{
+  width: 100px;
+}
+.input-bar{
+   background: transparent;
+   width: 300px;
+   border: none;
+   border-bottom: 1px solid white ;
+  height: 30px;
+  margin-top: 5px;
+
+  }
+
+.contain1{
+    position: relative;
+   
+    left: 10% ;
+    
+}
+.check-box-container
+{
+    margin-top:30px ;
+    position: relative;
+    
+    left:0% ;
+}
+
+
+/* css for right side login */
